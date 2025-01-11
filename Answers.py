@@ -210,3 +210,79 @@
     
     
 #22
+# n = input("enter a character")
+# vowelCount = 0
+# nonVowelCount = 0
+# for i in n:
+#     if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+#         vowelCount+=1 
+#     else:
+#         nonVowelCount+=1
+# print(vowelCount,nonVowelCount)
+
+#23
+#n = int(input("enter your unit:"))
+# price = 0
+# if n<=100:
+#     price = 0
+# elif n>100 and n<=300:
+#     price = (n-100)*2
+# else:
+#     price = 0 + (200*2) + (n-300)*5
+# print(price)
+
+#24
+# n = int(input("enter the number of days"))
+# price = 0
+# if n<=5:
+#     price = n*2
+# elif n>5 and n<=10:
+#     price = n*3
+# elif n>10 and n<=15:
+#     price = n*4
+# else:
+#     price = n*5
+# print(price)
+
+#25
+# n = int(input("enter the kilometer:"))
+# price = 0
+# if n<=10:
+#     price = n*11
+# elif n>10 and n<=100:
+#     price = (10*11) + (n-10)*10
+# else:
+#     price = (10*11) + (90*10) + (n-100)*9
+# print(price)
+
+#26
+# n = int(input("enter the number for digitsum"))
+# digitsum = 0
+# while n>0:
+#     u = n%10
+#     sq = u**2
+#     digitsum += sq
+#     n = n//10
+# print(f"square of digit = {digitsum}")    
+
+#27 
+# n = int(input("enter the number for cube of digit"))
+# digitsum = 0
+# while n>0:
+#     u = n%10
+#     sq = u**3
+#     digitsum +=sq
+#     n = n//10
+# print(f"cube of digit = {digitsum}")
+
+#28
+# n = int(input("enter the number for product of digit"))
+# product = 1
+# while n>0:
+#     u = n%10
+#     product*=u
+#     n = n//10
+# print(f"product of digit = {product}")
+
+
+#29
