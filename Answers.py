@@ -145,4 +145,40 @@
 #     i+=1
 # print(evensum)
 
+#16 
+# i = 1
+# oddsum = 0
+# while i<=10:
+#     if i%2!=0:
+#         oddsum+=i
+#     i+=1
+# print(oddsum)
 
+#17
+# i = 1
+# evensum = 0
+# oddsum = 0
+# while i<=10:
+#     if i%2==0:
+#         evensum+=i
+#     else:
+#         oddsum+=i
+#     i+=1
+# print(evensum,oddsum)
+
+#18
+# n = int(input("enter the number:"))
+# digitsum = 0
+# while n>0:
+#     u = n%10
+#     digitsum +=u
+#     n=n//10
+# print(digitsum)
+    
+
+#19
+# n = int(input("enter the numbers"))
+# print(f"last digit = {n%10}")
+
+
+#20
