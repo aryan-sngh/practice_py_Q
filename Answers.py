@@ -58,5 +58,91 @@
 # else:
 #     print("d grade")
     
+
+#7 
+# n = int(input("enter your bike price:"))
+# Tax = 0
+# if n>=100000:
+#     tax = 15*n/100
+# elif n<100000 and n>50000:
+#     tax = 10*n/100
+# else:
+#     tax = 5*n/100
+# print(f"tax = {tax}")
+# print(f"on road price = {n+tax}")
+
+#8
+# wd = int(input("enter the working days"))
+# pd = int(input("enter the per day income"))
+# print(f"total salary of month={wd*pd}")
+
+#9
+# n = int(input("enter your time period:"))
+# salary = int(input("enter your salary:"))
+# bonus = 0
+# if n>10:
+#     bonus = 10*salary/100
+# elif n>=6 and n<=10:
+#     bonus  = 8*salary/100
+# else:
+#     bonus = 5*salary/100
+# print(bonus)
+
+
+#10
+# a = int(input("enter 1st num:"))
+# b = int(input("enter 2nd number:"))
+# op = input("enter operator = +,-,/,*")
+# answer = 0
+# if op == "+":
+#     answer = a+b
+# elif op == '-':
+#     answer = a-b
+# elif op == '*':
+#     answer = a*b
+# elif op == '/':
+#     answer = a/b
+# else:
+#     print('something wrong')
+# print(f"final output = {answer}")
+
+
+
+#11
+# i = 1
+# while i<=10:
+#     print(i)
+#     i+=1
+
+#12
+# i = 1
+# while i<=10:
+#     if i%2==0:
+#         print(i)
+#     i+=1
     
+#13
+# i = 1
+# while i<=10:
+#     if i%2!=0:
+#         print(i)
+#     i+=1    
+    
+#14
+# i = 1
+# sum = 0
+# while i<=10:
+#     sum+=i
+#     i+=1
+# print(sum)
+
+#15
+# i = 1
+# evensum = 0
+# while i<=10:
+#     if i%2==0:
+#         evensum+=i
+#     i+=1
+# print(evensum)
+
 
