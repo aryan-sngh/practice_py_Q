@@ -36,5 +36,27 @@
 # else:
 #     print("odd")
     
+#5
+# a = int(input("enter any number 1:"))
+# b = int(input("enter any number 2:"))
+# c = int(input("enter any number 3:"))
+# if a>b and a>c:
+#     print("a is greater")
+# elif b>a and b>c:
+#     print("b is greater")
+# else:
+#     print("c is greater")
 
+#6
+# n = int(input("enter your percentage :"))
+# if n>90 :
+#     print("A grade")
+# elif n>80 and n<=90:
+#     print("b grade")
+# elif n>=60 and n<=80:
+#     print("c grade")
+# else:
+#     print("d grade")
+    
+    
 
