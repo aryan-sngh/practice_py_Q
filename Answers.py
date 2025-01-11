@@ -182,3 +182,31 @@
 
 
 #20
+# n = int(input("enter the year:"))
+# if n%4==0 or n%400==0:
+#     print("leap year")
+# else:
+#     print("not leap year")
+
+#or
+# n = int(input("enter years after 2000:"))
+# for i in range(2000,n+1):
+#     if i%4==0 or i%400==0:
+#         print("leap year-->",i)
+#     else:
+#         print("not a leap year-->",i)
+    
+#21
+# n = int(input("enter the number for checking prime number:"))
+# if n==0 or n==1:
+#     print("nither prime nor a composite")
+# else:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime")
+    
+    
+#22
