@@ -1082,5 +1082,259 @@
 # print(min)
 
 #124
-l=[]
-n=int(input("enter the size of list:"))
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# max=l[0]
+# for i in range(len(l)):
+#     if l[i]>max:
+#         max=l[i]
+# print(max)
+
+#125
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# max=l[0]
+# smax=l[0]
+# for i in range(len(l)):
+#     if l[i]>max:
+#         smax=max
+#         max=l[i]
+#     elif l[i]>smax:
+#         smax=l[i]
+# print(smax,max)
+
+
+#126
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# min=l[0]
+# smin=l[0]
+# for i in range(len(l)):
+#     if l[i]<min:
+#         smin=min
+#         min=l[i]
+#     elif l[i]<smin:
+#         smin=l[i]
+# print(min,smin)
+
+#127
+'''already done'''
+
+#128
+'''already done'''
+
+#129 , 130, 131,132,133
+
+#134
+# m={}
+# for i in range(5):
+#     a=int(input('enter element'))
+#     m[i]=a
+# print(m)
+# x=sorted(m.values())
+# print(x)
+
+
+#135 
+# m={'2':1,"5":2,"4":3}
+# m.update({'6':8})
+# print(m)
+
+#136
+# m={}
+# n=int(input("enter the size of dict"))
+# for i in range(n):
+#     x=int(input("enter the keys:"))
+#     z=int(input("enter the values"))
+#     m[x]=z
+# print(m)
+# item=int(input("enter the item to find?:"))
+# for i in m.keys():
+#     if i==item:
+#         print("yess")
+#         break
+# else:
+#     print("not found")
+
+#137
+# m={}
+# n=int(input("enter the size of dict"))
+# for i in range(n):
+#     m[i]=i**2
+# print(m)
+
+
+#138
+# m={}
+# n=int(input("enter the size of dict:"))
+# for i in range(1,n+1):
+#     m[i]=i**3
+# print(m)
+
+#139
+# n=input("enter the string to find frequency:")
+# m={}
+# for i in n:
+#     if i in m:
+#         m[i]+=1
+#     else:
+#         m[i]=1
+# print(m)
+
+#140
+# t=(1,2,4,22,4,5)
+# sum=0
+# for i in t:
+#     sum+=i
+# print(sum)
+
+#141
+# t=(1,2,3,44,52,4)
+# max=t[0]
+# smax=t[0]
+# for i in range(len(t)):
+#     if t[i]>max:
+#         smax=max
+#         max=t[i]
+#     elif t[i]>smax:
+#         smax=t[i]
+# print(smax,max)
+
+#142
+# t=(1,2,3,44,52,4)
+# print(t)
+# l=list(t)
+# print(l)
+
+#143
+# l=[1, 2, 3, 44, 52, 4]
+# print(l)
+# t=tuple(l)
+# print(t)
+
+#144
+# def fact(n):
+#     if(n<=1):
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# print(fact(5))
+
+#145
+# def fib(n):
+#     if(n<=1):
+#         return 1
+#     else:
+#         return fib(n-1)+fib(n-2)
+# n=int(input("enter the number to check fib"))
+# for i in range(n+1):
+#     print(fib(i),end=" ")
+
+#146
+# l=[1,2,4,5,455,6]
+# for i in range(len(l)):
+#     for j in range(len(l)-1,-1,-1):
+#         if l[i]+l[j]==9:
+#             print(i,end=" ")
+    
+    
+#147
+# n="aryanchaudhary"
+# if(len(n)<=10):
+#     print(n)
+# else:
+#     print(n[0:11],"....")
+
+#148
+# l1=[1,2,3,4,5,6]
+# l2=[1,2,4,4,5,6]
+# l3=[]
+# for i in range(len(l1)):
+#     a=l1[i]+l2[i]
+#     l3.append(a)
+# print(l3)
+
+#149
+# l=[]
+# n=int(input("enter the row:"))
+# x=int(input("enrer the colunm:"))
+# for i in range(n):
+#     k=[]
+#     for j in range(x):
+#         a=int(input("enter the elements:"))
+#         k.append(a)
+#     l.append(k)
+# print(l)
+# for i in range(len(l)):
+#     for j in range(len(l[i])):
+#         print(l[i][j],end=" ")
+#     print()
+        
+        
+#150
+# l=[]
+# n=int(input("enter the row:"))
+# h=int(input("enter the column"))
+# for i in range(n):
+#     k=[]
+#     for j in range(h):
+#         a=int(input("enter the elements:"))
+#         k.append(a)
+#     l.append(k)
+# print(l)
+# sum=0
+# for i in range(len(l)):
+#     for j in range(len(l[i])):
+#         sum+=l[i][j]
+# print(sum)
+
+#151
+# l=[]
+# n=int(input("enter the row:"))
+# h=int(input("enter the column:"))
+# for i in range(n):
+#     k=[]
+#     for j in range(h):
+#         a=int(input("enter the elements:"))
+#         k.append(a)
+#     l.append(k)
+# print(l)
+# multi=1
+# for i in range(len(l)):
+#     for j in range(len(l[i])):
+#         multi*=l[i][j]
+# print(multi)
+
+#152
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# l.sort()
+# print(f"after sorting ={l}")
+# item = int(input("enter the number to find there index:"))
+# low = 0
+# high = len(l)-1
+# while(low<=high):
+#     mid=(low+high)//2
+#     if item==l[mid]:
+#         print(mid)
+#         break
+#     elif item>l[mid]:
+#         low=mid+1
+#     else:
+#         high=mid-1
