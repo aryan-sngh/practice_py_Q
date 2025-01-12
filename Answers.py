@@ -403,4 +403,162 @@
         
 # print(vowelCount,consondCount)
 
-#43
+# #43
+# n = input("enter the string:")
+# for i in range(len(n)-1,-1,-1):
+#     print(n[i],end="")
+    
+#44
+# for i in range(10,0,-1):
+#     print(i)
+
+#45
+# n = input("enter the string")
+# item = input("enter the finding char:")
+# freq =0
+# other = 0
+# for i in n:
+#     if item == i:
+#         freq+=1
+#     else:
+#         other+=1
+# print(freq,other)        
+
+#46
+# n = input("enter the string")
+# for i in range(0,len(n)):
+#     print(f"{n[i]}-->{i}")
+    
+#47
+# n = int(input("enter the term"))
+# for i in range(2,n+1):
+#     for j in range(2,n+1):
+#         if(i%j==0):
+#            break
+#     if(i==j):
+#         print("prime",i)
+    
+#48
+# evenSum = 0
+# oddSum = 0
+# for i in range(12,38):
+#     if(i%2==0):
+#         evenSum+=i
+#     else:
+#         oddSum+=i
+# print(evenSum,oddSum)
+
+#49
+# for i in range(100,501):
+#     if i%11==0 and i%2!=0:
+#         print(i)
+            
+
+#50
+# i = 1
+# while(i<=10):
+#     print(f"{i}-->{i**2}")
+#     i+=1
+
+
+#51
+# i = 1
+# while(i<=30):
+#     print(i*10,end=",")
+#     i+=1
+
+#52
+# i = 105
+# while(i>=1):
+#     print(i,end=",")
+#     i-=7
+
+#53
+# i = 10
+# while(i>=1):
+#     print(i)
+#     i-=1
+
+#54
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(f"{i}x{j}={i*j}")
+#     print()
+
+
+#55
+# i = 1
+# n = int(input("enter a number which table you want?:"))
+# while(i<=10):
+#     print(f"{n}x{i}={n*i}")
+#     i+=1
+
+
+#56
+# n = int(input("enter the number:"))
+# i=1
+# while(i<=n):
+#     if i%2==0:
+#         print(i)
+#     i+=1
+    
+    
+#57
+'''already done'''
+
+#58
+# n = int(input("enter the terms:"))
+# if n==1:
+#     print("1")
+# elif n==2:
+#     print("1,1")
+# else:
+#     a=0
+#     b=1
+#     print(b,end=" ")
+#     c=0
+#     while(n>0):
+#         c=a+b
+#         a=b
+#         b=c
+#         print(c,end=" ")
+#         n-=1
+    
+    
+#59
+# i=1
+# n = int(input("ENTER the number to find factorial:"))
+# fact=1
+# while(i<=n):
+#     fact*=i
+#     i+=1
+# print(fact)
+    
+#60
+'''already done'''
+
+#61
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j,end="")
+#     print()
+
+#62
+# for i in range(1,6):
+#     for j in range(5,i-1,-1):
+#         print(j,end=" ")
+#     print()
+
+#63
+# for i in range(5,0,-1):
+#     for j in range(1,i+1):
+#         print(i,end=" ")
+#     print()
+
+#64
+# for i in range(5,0,-1):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print()
+
+#65
