@@ -286,3 +286,121 @@
 
 
 #29
+# n = int(input("enter number for reverse"))
+# rev = 0
+# while n>0:
+#     u = n%10
+#     rev = rev*10 + u
+#     n = n//10
+# print(rev)
+
+#30
+# n = int(input("enter number for checking palindrome"))
+# og = n
+# rev = 0
+# while n>0:
+#     u = n%10
+#     rev = rev*10 + u
+#     n = n//10
+# print(rev)
+# if rev == og:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+    
+#31
+# n = int(input("enter the number for checking a armstomg"))
+# og = n
+# digitcube = 0
+# while n>0:
+#     u = n%10
+#     cb = u**3
+#     n = n//10
+# print(digitcube)
+# if digitcube == u:
+#     print("armstong")
+# else:
+#     print("not armstong")
+    
+
+#32
+# for i in range(1,11):
+#     print(i)
+    
+#33
+# for i in range(1,11):
+#     if i%2==0:
+#         print(i)
+    
+#34
+# for i in range(1,11):
+#     if i%2!=0:
+#         print(i)
+        
+#35
+# sum = 0
+# for i in range(1,11):
+#     sum+=i
+# print(sum)
+
+
+#36
+# evenSum = 0
+# for i in range(1,11):
+#     if i%2==0:
+#         evenSum+=i
+# print(evenSum)
+    
+#37
+# oddsum = 0
+# for i in range(1,11):
+#     if i%2!=0:
+#         oddsum+=i
+# print(oddsum)
+
+#38
+# evenSum = 0
+# oddSum = 0
+# for i in range(1,11):
+#     if i%2==0:
+#         evenSum+=i
+#     else:
+#         oddSum+=i
+# print(evenSum,oddSum)        
+
+#39
+# fact = 1
+# n = int(input("enter the number for factorial:"))
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+#40
+# n = input("enter the string for finding a length")
+# length = 0
+# for i in n:
+#     length+=1
+# print(length)
+
+
+#41
+# a = input("enter the string 1")
+# b = input("enter the string 2")
+# if len(a) == len(b):
+#     print("equal")
+# else:
+#     print("not equal")
+    
+#42
+# n = input("enter the string for checking vowel or consond:")
+# vowelCount = 0
+# consondCount = 0
+# for i in n:
+#     if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+#         vowelCount+=1
+#     else:
+#         consondCount+=1
+        
+# print(vowelCount,consondCount)
+
+#43
