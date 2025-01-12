@@ -817,3 +817,270 @@
 #         min=l[i]
 # print(min)
 
+#96
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# max=l[0]
+# smin=l[0]
+# for i in range(1,len(l)):
+#     if l[i]>max:
+#         smax=max
+#         max=l[i]
+#     elif l[i]>smax:
+#         smax=l[i]
+# print(smax)
+# print(max)
+
+#97
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# min=l[0]
+# smin=l[0]
+# for i in range(1,len(l)):
+#     if l[i]<min:
+#         smin=min
+#         min=l[i]
+#     elif l[i]<smin:
+#         smin=l[i]
+# print(smin)
+# print(min)
+
+#98
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# primeList=[]
+# for i in l:
+#     if(i==1 or i==0):
+#         print("neither prime nor composite",i)
+#     else:
+#         for j in range(2,i):
+#             if(i%j==0):
+#                 break
+#         else:
+#             primeList.append(i)
+# print(primeList)
+    
+    
+#99
+'''already done'''
+
+#100
+# n = "aryan"
+# m = n[::-1]
+# print(m)
+    
+        
+#101
+# n = "aryansingh"
+# m={}
+# for i in n:
+#     if i in m:
+#         m[i]+=1
+#     else:
+#         m[i]=1
+# print(m)
+
+#102
+# def add(a,b,c):
+#     summ=a+b+c
+#     return summ
+
+# print(add(2,3,4))
+
+#103
+# def evenFinder(n):
+#     if n%2==0:
+#         return "even"
+#     else:
+#         return "odd"
+# print(evenFinder(int(input("enter the number"))))
+
+#104
+# def totalSum(sum):
+#     for i in range(1,11):
+#         sum+=i
+#     return sum
+# print(totalSum(sum=0))
+    
+    
+#105
+# def countt(evenCount,oddCount):
+#     for i in range(1,12):
+#         if i%2==0:
+#             evenCount+=1
+#         else:
+#             oddCount+=1
+#     return evenCount,oddCount
+
+# print(countt(evenCount=0,oddCount=0))
+            
+#106
+# def summ(evenSum,oddSum):
+#     for i in range(1,11):
+#         if i%2==0:
+#             evenSum+=i
+#         else:
+#             oddSum+=i
+#     return evenSum,oddSum
+
+# print(summ(evenSum=0,oddSum=0))
+
+
+#107
+# def table(n):
+#     i=1
+#     while(i<=10):
+#         print(f"{n}x{i}={n*i}")
+#         i+=1
+# table(n=5) 
+
+
+#108
+# def factorial(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact*=i
+#     return fact
+# print(factorial(n=5))    
+
+#109
+# def primeFinder(n):
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime")
+
+# n=int(input("enter the number"))    
+# if n==0 or n==1:
+#     print("neither prime nor composite")
+# else:
+#     primeFinder(n)
+    
+    
+#110
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the element"))
+#     l.append(a)
+# print(l)
+# for i in range(len(l)):
+#     temp=l[0]
+#     l[0]=l[len(l)-1]
+#     l[len(l)-1]=temp
+# print(l)
+
+#or
+# def swap(l):
+#     for i in range(0,len(l)):
+#         temp = l[0]
+#         l[0]=l[len(l)-1]
+#         l[len(l)-1]=temp
+#     return l
+# l=[1,2,3,4,5]
+# print(swap(l))
+
+#111
+# def swap(l,n1,n2):
+#     for i in range(len(l)):
+#         temp = l[n1]
+#         l[n1] = l[n2]
+#         l[n2] = temp
+#     return l
+# l=[1,2,3,4,5]
+# print(swap(l,1,3))
+
+
+#112
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# print(len(l))
+
+#113
+'''already done'''
+
+#114
+'''already done'''
+
+#115
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# item=int(input("enter the element to find"))
+# for i in l:
+#     if item==i:
+#         print("true")
+#         break
+# else:
+#     print("false")
+
+#116
+# l=[1,2,4,5,2,1]
+# print(l)
+# l.clear()
+# print(l)
+
+#117
+# l=[1,2,3,4,5]
+# l.reverse()
+# print(l)
+
+#118
+# l1=[1,2,3,4,5,6]
+# l2=[22,53,67,34]
+# print(l1)
+# print(l2)
+# l2.copy()
+# print(l2)
+
+#119
+'''done'''
+
+#120
+# l=[1,2,3,4,5]
+# sum=0
+# for i in l:
+#     sum+=i
+# print(f"average of list={sum/len(l)}")
+
+
+#122
+# l=[1,2,3,4,5]
+# multi=1
+# for i in l:
+#     multi*=i
+# print(multi)
+
+#123
+# l=[12,3,4,55,3]
+# min = l[0]
+# for i in range(len(l)):
+#     if l[i]<min:
+#         min=l[i]
+#         break
+# print(min)
+
+#124
+l=[]
+n=int(input("enter the size of list:"))
