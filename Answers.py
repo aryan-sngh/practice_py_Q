@@ -562,3 +562,258 @@
 #     print()
 
 #65
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(i,end=" ")
+#     print()
+
+#66
+# for i in range(5,0,-1):
+#     for j in range(i,6): 
+#         print(i,end=" ")
+#     print()
+
+#67
+# for i in range(5,0,-1):
+#     for j in range(5,i-1,-1):
+#         print(j,end=" ")
+#     print()
+
+#68
+# for i in range(1,6):
+#     count = 1
+#     for j in range(5,0,-1):
+#         if i<j:
+#             print(" ",end=" ")
+#         else:
+#             print(count,end=" ")
+#             count+=1
+#     print()
+
+#69
+# for i in range(1,6):
+#     for j in range(5,0,-1):
+#         if i<j:
+#             print(" ",end=" ")
+#         else:
+#             print(i,end=" ")
+#     print()
+
+#70
+# for i in range(1,6):
+#     for j in range(5,0,-1):
+#         if i<j:
+#             print(" ",end=" ")
+#         else:
+#             print(j,end=" ")
+#     print()
+
+#71
+# for i in range(1,6):
+#     for j in range(i,0,-1):
+#         print(j,end=" ")
+#     print()
+    
+    
+#72
+# count = 1
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print(count,end=" ")
+#         count+=1
+#     print()
+
+#73
+# for i in range(0,5): 
+#     for j in range(0,i+1):
+#         print(i*j,end=" ")
+#     print()
+
+#74
+# for i in range(0,5):
+#     for j in range(0,i+1):
+#         if j==0:
+#             print('A',end="")
+#         elif j==1:
+#             print('B',end="")
+#         elif j==2:
+#             print('C',end="")
+#         elif j==3:
+#             print('D',end="")
+#         elif j==4:
+#             print('E',end="")
+#         print(" ",end="")
+#     print()    
+    
+#75
+# for i in range(0,5):
+#     for j in range(0,i+1):
+#         if i==0:
+#             print('A',end="")
+#         elif i==1:
+#             print('B',end="")
+#         elif i==2:
+#             print('C',end="")
+#         elif i==3:
+#             print('D',end="")
+#         elif i==4:
+#             print('E',end="")
+#         print(" ",end="")
+#     print()    
+
+
+#77
+# for i in range(0,5):
+#     for j in range(0,i+1):
+#         print(j**2,end=" ")
+#     print()
+
+#78
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(i**2,end=" ")
+#     print()
+
+#79
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         if(i%2!=0):
+#             print(i,end=" ")
+#     print()
+
+#80
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print("*",end=" ")
+#     print()
+
+#81
+# for i in range(5,0,-1):
+#     for i in range(1,i+1):
+#         print("*",end=" ")
+#     print()
+
+#82
+# for i in range(1,6):
+#     for j in range(5,0,-1):
+#         if i<j:
+#             print(" ",end=" ")
+#         else:
+#             print("*",end=" ")
+#     print()
+
+#83
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print(j,end="")
+#     print()
+
+#84
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print(i,end="")
+#     print()
+
+#88
+# n = input("enter the string")
+# m = {}
+# for i in n:
+#     if i in m:
+#         m[i]+=1
+#     else:
+#         m[i]=1
+# print(m)
+
+#89
+# l=[]
+# n=int(input("enter the number of elements"))
+# for i in range(1,n+1):
+#     a=int(input('enter the elememts'))
+#     l.append(a)
+# print(l)
+
+#90
+# l=[]
+# n = int(input("enter the number of size in list"))
+# for i in range(n):
+#     a=int(input("enter the elements"))
+#     l.append(a)
+# print(l)
+# e=[]
+# for j in l:
+#     if j%2==0:
+#         e.append(j)
+# print(e)
+        
+    
+#91
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements"))
+#     l.append(a)
+# print(l)
+# e=[]
+# for j in l:
+#     if j%2!=0:
+#         e.append(j)
+# print(e)
+
+#92
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# esum=0
+# osum=0
+# for i in l:
+#     if(i%2==0):
+#         esum+=i
+#     else:
+#         osum+=i
+# print(esum,osum)
+
+#93
+# l=[]
+# n=int(input("enter the size of list"))
+# for i in range(n):
+#     a=int(input("enter the elements"))
+#     l.append(a)
+# print(l)
+# m={}
+# for i in l:
+#     if i in m:
+#         m[i]+=1
+#     else:
+#         m[i]=1
+# print(m)
+
+#94
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# max=l[0]
+# for i in range(1,len(l)):
+#     if l[i]>max:
+#         max=l[i]
+# print(max)
+
+
+#95
+# l=[]
+# n=int(input("enter the size of list:"))
+# for i in range(n):
+#     a=int(input("enter the elements:"))
+#     l.append(a)
+# print(l)
+# min=l[0]
+# for i in range(1,len(l)):
+#     if l[i]<min:
+#         min=l[i]
+# print(min)
+
